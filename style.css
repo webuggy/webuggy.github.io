@@ -1,0 +1,27 @@
+#mainEl{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info h1{
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.info p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
